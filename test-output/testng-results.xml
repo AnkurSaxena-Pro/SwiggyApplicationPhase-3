@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34904" started-at="2021-11-27T10:21:31 UTC" finished-at="2021-11-27T10:22:06 UTC">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swiggy.testscripts.TestRunner@37883b97]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="34904" started-at="2021-11-27T10:21:31 UTC" finished-at="2021-11-27T10:22:06 UTC">
+      <class name="com.swiggy.testscripts.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.swiggy.testscripts.TestRunner@37883b97]" name="setUpClass" is-config="true" duration-ms="211" started-at="2021-11-27T10:21:31 UTC" finished-at="2021-11-27T10:21:31 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@354e7004]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swiggy.testscripts.TestRunner@37883b97]" name="runScenario" duration-ms="18218" started-at="2021-11-27T10:21:31 UTC" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-27T10:21:50 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Order Pizza From Swiggy"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[a user should be able to order Pizza from Swiggy]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swiggy.testscripts.TestRunner@37883b97]" name="runScenario" duration-ms="16430" started-at="2021-11-27T10:21:50 UTC" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-27T10:22:06 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Order Pizza From Swiggy"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[a user should be able to order Pizza from Swiggy]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.swiggy.testscripts.TestRunner@37883b97]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2021-11-27T10:22:06 UTC" finished-at="2021-11-27T10:22:06 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.swiggy.testscripts.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
